@@ -8,3 +8,6 @@ def profile1(request):
         "bio": "Инжинер строитель деревьев"
     }
     return render(request, "profile.html", context)
+
+def music(request):
+    return render(request, "music.html")
